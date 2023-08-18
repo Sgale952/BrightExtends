@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "brightextends:block/breakable_bedrock"
+    }
+  }
+}
