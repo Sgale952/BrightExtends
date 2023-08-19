@@ -4,7 +4,9 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "brightextends.mixins.refmap.json",
   "package": "net.sgale.brightextends.mixin",
-  "mixins": [],
+  "mixins": [
+    "DestroyProgressMixin"
+  ],
   "client": [],
   "server": []
 }
