@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:strength"
+      }
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt": {
+        "Potion": "minecraft:fire_resistance"
+      }
+    }
+  ],
+  "result":     {
+    "type": "forge:nbt",
+    "item": "minecraft:potion",
+    "nbt": {
+      "Potion": "brightextends:haste_potion"
+    }
+  }
+}

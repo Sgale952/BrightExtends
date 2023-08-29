@@ -1,6 +1,10 @@
 {
   "item.brightextends.ancient_pickaxe": "Древняя кирка",
   "item.brightextends.ancient_book": "Древняя книга",
-  "item.brightextends.ancient_upgrade_smithing_template": "Древний шаблон"
+  "item.brightextends.ancient_upgrade_smithing_template": "Древний шаблон",
 
+  "item.minecraft.potion.effect.haste_potion": "Зелье спешки",
+  "item.minecraft.splash_potion.effect.haste_potion": "Взрывное зелье спешки",
+  "item.minecraft.lingering_potion.effect.haste_potion": "Туманное зелье спешки",
+  "item.minecraft.tipped_arrow.effect.haste_potion": "Стрела спешки"
 }

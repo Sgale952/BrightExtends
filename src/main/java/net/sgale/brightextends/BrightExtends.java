@@ -11,6 +11,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.sgale.brightextends.item.ModCreativeTab;
 import net.sgale.brightextends.item.ModItems;
+import net.sgale.brightextends.potion.ModPotions;
 
 @Mod(net.sgale.brightextends.BrightExtends.MODID)
 public class BrightExtends
@@ -22,6 +23,7 @@ public class BrightExtends
 
         ModCreativeTab.register(modEventBus);
         ModItems.register(modEventBus);
+        ModPotions.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
