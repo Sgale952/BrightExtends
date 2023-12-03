@@ -8,13 +8,11 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.sgale.brightextends.BrightExtends;
-import net.sgale.brightextends.potion.ModPotions;
-
-import java.awt.*;
 
 import static net.minecraft.world.item.Items.NETHER_STAR;
 
 public class ModCreativeTab {
+
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BrightExtends.MODID);
 
@@ -27,7 +25,7 @@ public class ModCreativeTab {
                         output.accept(ModItems.ANCIENT_TEMPLATE.get());
                     }).build());
 
-    public static void register(IEventBus eventBus){
+    public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
     }
 }
